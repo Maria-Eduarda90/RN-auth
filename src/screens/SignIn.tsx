@@ -1,6 +1,7 @@
 import { VStack, Heading, Text, Icon } from 'native-base';
 import { SimpleLineIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { Input } from '../components/Input';
+import { Button } from '../components/Button';
 
 export function SignIn(){
     return(
@@ -12,14 +13,17 @@ export function SignIn(){
 
             <Input
              placeholder="teste@example.com"
-             mb={6}
+             mb={4}
              InputLeftElement={<Icon as={<MaterialCommunityIcons name="email-outline"/>} ml={4} size={6}/>}
             />
             <Input
+             mb={10}
              placeholder="*************"
              InputLeftElement={<Icon as={<SimpleLineIcons name="lock" />} ml={4} size={6} />}
              secureTextEntry
             />
+
+            <Button title="Entrar" w="full" />
         </VStack>
     );
 }
