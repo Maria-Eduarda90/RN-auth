@@ -4,6 +4,7 @@ export const THEME = extendTheme({
   colors: {
     primary: {
       700: "#584581",
+      800: "#4D3C72",
     },
 
     gray: {
@@ -14,14 +15,14 @@ export const THEME = extendTheme({
     white: "#FFFFFF",
   },
   fonts: {
-    heading: 'Roboto_700Bold',
-    body: 'Roboto_400Regular',
+    heading: "Roboto_700Bold",
+    body: "Roboto_400Regular",
   },
   fontSize: {
     xs: 12,
     sm: 14,
     md: 16,
-    lg: 20
+    lg: 20,
   },
   sizes: {
     14: 56,
