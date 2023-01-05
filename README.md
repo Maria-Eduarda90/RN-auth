@@ -11,6 +11,7 @@
 - Native-Base
 - Expo/vector-icons
 - Firebase
+- React Navigation
 
 </br>
 
