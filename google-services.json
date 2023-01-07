@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "857638079253",
+    "project_id": "reactnative-auth-bcf95",
+    "storage_bucket": "reactnative-auth-bcf95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857638079253:android:abb5b9ae94deb37caab71c",
+        "android_client_info": {
+          "package_name": "com.reactnativeauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857638079253-c7suo2bn27oh3r4mergpuhltjv34g1ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLaqp8jULXUDyp1zEtVYX-EPi1Fekfj5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857638079253-c7suo2bn27oh3r4mergpuhltjv34g1ev.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857638079253-5l5a87pjg9mtuqtnl34t69aa44q9qups.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reactnativefirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

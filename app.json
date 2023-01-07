@@ -5,7 +5,18 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.reactnativeauth",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.reactnativeauth",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
   },
   "name": "reactnative-auth"
 }
