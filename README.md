@@ -25,6 +25,7 @@ $ yarn || npm i
 
 # Execute a aplicação em modo de desenvolvimento
 $ expo start
+$ expo run:android
 
 ```
 
