@@ -18,7 +18,7 @@
 ```bash
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd ReactNative-auth
+$ cd RN-auth
 
 # Instale as dependências
 $ yarn || npm i
